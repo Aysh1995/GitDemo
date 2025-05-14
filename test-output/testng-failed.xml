@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day8_19042025.DataDrivenDemo">
+      <class name="Day2_8042025.OrangeHRM_Annotation">
         <methods>
-          <include name="ExecutionMethod"/>
+          <include name="logout"/>
+          <include name="VerifyHomepage"/>
+          <include name="teardowm"/>
+          <include name="Login"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- Day8_19042025.DataDrivenDemo -->
+      </class> <!-- Day2_8042025.OrangeHRM_Annotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
